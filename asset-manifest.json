@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Fashion-Shop/static/css/main.9228da63.chunk.css",
+    "main.js": "/Fashion-Shop/static/js/main.04d386b2.chunk.js",
+    "main.js.map": "/Fashion-Shop/static/js/main.04d386b2.chunk.js.map",
+    "runtime-main.js": "/Fashion-Shop/static/js/runtime-main.163f4b68.js",
+    "runtime-main.js.map": "/Fashion-Shop/static/js/runtime-main.163f4b68.js.map",
+    "static/js/2.1778bc92.chunk.js": "/Fashion-Shop/static/js/2.1778bc92.chunk.js",
+    "static/js/2.1778bc92.chunk.js.map": "/Fashion-Shop/static/js/2.1778bc92.chunk.js.map",
+    "index.html": "/Fashion-Shop/index.html",
+    "precache-manifest.073642f13da4b2dff48c20282ae12efd.js": "/Fashion-Shop/precache-manifest.073642f13da4b2dff48c20282ae12efd.js",
+    "service-worker.js": "/Fashion-Shop/service-worker.js",
+    "static/css/main.9228da63.chunk.css.map": "/Fashion-Shop/static/css/main.9228da63.chunk.css.map",
+    "static/media/denim_wash_shirt.jpg": "/Fashion-Shop/static/media/denim_wash_shirt.54e2d12f.jpg",
+    "static/media/plaid_shirt.jpg": "/Fashion-Shop/static/media/plaid_shirt.790540d3.jpg",
+    "static/media/raglan_tee.jpg": "/Fashion-Shop/static/media/raglan_tee.c7281004.jpg",
+    "static/media/rugby_jersey.jpg": "/Fashion-Shop/static/media/rugby_jersey.89b685a6.jpg",
+    "static/media/staple_stripe.jpg": "/Fashion-Shop/static/media/staple_stripe.01847be4.jpg",
+    "static/media/stone_wash.jpg": "/Fashion-Shop/static/media/stone_wash.d23dc29a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.163f4b68.js",
+    "static/js/2.1778bc92.chunk.js",
+    "static/css/main.9228da63.chunk.css",
+    "static/js/main.04d386b2.chunk.js"
+  ]
+}
