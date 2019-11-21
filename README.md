@@ -14,7 +14,7 @@
 
 ---
 
-<p align="center"> 🌦 A Fashion-shop website built with <b>React.js</b>, <b>SASS</b>, <b>React Hooks</b>
+<p align="center"> 👔 A Fashion-shop website built with <b>React.js</b>, <b>SASS</b>, <b>React Hooks</b>
 <br>
 <a href="https://mxue2.github.io/Fashion-Shop/">Demo Link</a>
 </p>
