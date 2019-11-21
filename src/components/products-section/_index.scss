@@ -1,0 +1,38 @@
+.section-products {
+  width: calc(100% - 2*#{$spacing-sm});
+  padding: $spacing-sm;
+  margin: $spacing-sm;
+  border: 1px solid black;
+  grid-column: center-start / center-end;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 4rem;
+}
+
+
+.card {
+  width: 28rem;
+  background-color: white;
+  margin: 2rem;
+  text-align: center;
+  padding: $spacing-lg;
+
+  &-img {
+    display: block;
+
+    & > img {
+      height: 200px;
+    }
+  }
+
+  > h2 {
+    margin-top: $spacing-sm;
+    font-size: $font-md;
+    letter-spacing: 2px;
+  }
+
+  >p {
+    font-size: $font-sm;
+    font-weight: 800;
+  }
+}

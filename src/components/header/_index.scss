@@ -1,0 +1,124 @@
+.header {
+  // background-color: $color-green;
+  height: 10vh;
+  position: relative;
+  border-bottom: 1px solid $color-gray1;
+
+  &-logo-box {
+    position: absolute;
+    top: 1.5rem;
+    left: 5%;
+    text-decoration: none;
+    color: inherit;
+
+    &__logo {
+      height: 3.5rem;
+      font-size: $font-lg
+    }
+  }
+
+  &-shopping-cart {
+    position: absolute;
+    right: 10%;
+    top: 2.5rem;
+
+    &__icon {
+      font-size: $font-lg;
+      // color: $color-gray5;
+      cursor: pointer;
+
+    }
+
+    &__content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: $color-white;
+      min-width: 40rem;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      padding: 1rem 0 0.5rem 0;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      z-index: 1;
+
+      @media only screen and (max-width: 500px) {
+        min-width: 30rem;
+      }
+
+      & > h2 {
+        font-size: 3rem;
+        letter-spacing: 2px;
+        font-weight: 300;
+        margin-left: $spacing-sm;
+      }
+
+      &-button {
+        margin-top: $spacing-sm;
+        width: 100%;
+        font-size: $font-sm;
+      }
+    }
+
+    &:hover &__content {
+      display: block;
+    }
+  }
+}
+
+.cart-item {
+  width: 100%;
+  border-bottom: 1px solid black;
+
+  &:first-child {
+    border-top: 1px solid black;
+  }
+
+  padding: 0 2rem;
+
+  &-left {
+    float: left;
+    width: 50%;
+    text-align: left;
+
+    &__name {
+      font-size: $font-md;
+      font-weight: 400;
+    }
+    &__size {
+      font-size: $font-sm;
+      font-weight: 800;
+      &::before {
+        content: "size: ";
+      }
+    }
+  }
+
+  &-right {
+    float: right;
+    width: 50%;
+    text-align: right;
+
+    &__price {
+      font-size: $font-md;
+      font-weight: 400;
+      &::before {
+        content: "$";
+      }
+    }
+
+    &__quantity {
+      font-size: $font-sm;
+      // color: $color-gray2;
+      font-weight: 800;
+      &::before {
+        content: "quantity: ";
+      }
+    }
+  }
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

@@ -1,0 +1,15 @@
+@charset "utf-8/index";
+ 
+@import "sass/variables";
+@import "sass/base";
+@import "sass/reuse";
+
+/* Components */
+@import "components/app/index";
+@import "components/header/index";
+@import "components/main/index";
+@import "components/products-section/index";
+@import "components/products-menu/index";
+@import "components/product-page/index";
+@import "components/not-found-page/index";
+

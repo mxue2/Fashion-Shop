@@ -1,0 +1,18 @@
+.custom-button {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border: 0.2rem solid #000;
+  border-radius: 0.5rem;
+  padding: 1rem 7rem;
+  background-color: #000;
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+  outline: 0;
+
+  &:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}

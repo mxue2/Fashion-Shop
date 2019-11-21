@@ -1,0 +1,91 @@
+.menu {
+  margin: $spacing-lg $spacing-md $spacing-md $spacing-md;
+
+  &__title {
+    font-size: $font-lg;
+  }
+
+  &-box {
+    margin-top: $spacing-sm;
+
+    &__subtitle {
+      font-size: $font-sm;
+      float: left;
+      margin-left: 2rem;
+
+      @media only screen and (max-width: 500px) {
+        float: none;
+        display: block;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    // clearfix
+    &::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+}
+
+/* The dropdown container */
+.dropdown {
+  overflow: hidden;
+  float: right;
+  margin-left: 2rem;
+
+  @media only screen and (max-width: 500px) {
+    float: none;
+    display: block;
+
+    margin-left: 1rem;
+  }
+
+  &__label {
+    display: inline;
+    font-size: $font-sm;
+    text-transform: uppercase;
+  }
+
+  &__button {
+    font-size: $font-sm;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    padding: 0 1.5rem;
+    background-color: inherit;
+    &-icon {
+      margin-left: 0.5rem;
+    }
+  }
+
+  &-content {
+    display: none;
+    position: absolute;
+    min-width: 18rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: $color-gray6;
+    cursor: pointer;
+
+    & > p {
+      float: none;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      font-size: $spacing-sm;
+      color: inherit;
+
+      &:hover {
+        background-color: #ddd;
+      }
+    }
+  }
+
+  &:hover &-content {
+    display: block;
+  }
+}
